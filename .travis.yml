@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - 1.7.1
+
+script:
+
+  - cd src/api
+  - go test ./... -v
